@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:toepattern/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:toepattern/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:toepattern/prow:hmacToken
+segmentWriteKey: vault:toepattern:segmentWriteKey
